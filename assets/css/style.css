@@ -3,7 +3,7 @@
 
 
 :root {
-  --narinci-reng:#FF8A56;
+  --narinci-reng: #FF8A56;
 }
 
 /* Google fonts start  */
@@ -48,7 +48,7 @@
 
 /* Header Start */
 .portfolio-creator {
-    width: 190px;
+  width: 190px;
 }
 
 .arrow1 {
@@ -60,6 +60,7 @@
 .py-3 {
   font-size: 15px;
 }
+
 /* paragraf  */
 
 
@@ -86,7 +87,7 @@
 
 .intro-left-side h1 {
   font-size: 38px;
-  
+
 }
 
 .intro-left-side h1 span {
@@ -111,31 +112,78 @@
   justify-content: space-around;
 
 
-  
+
 
 }
 
 .sirketler img {
   width: 141px;
   /* justify-content: space-around; */
-  
+
 }
+
 /* Section sirketlerr end */
 
 /* Section Servisler start */
 .shirket-services-section h5 {
-  color: #FF5E69; 
+  color: #FF5E69;
   letter-spacing: 4px;
 }
 
 /* descendant selector */
 /* child selector */
 
-.cards .card >img {
+.cards .card>img {
   width: 70px;
 }
 
 /* Section Servisler end */
+
+
+
+.projects {
+justify-content: space-between ;
+}
+
+.h6-project {
+letter-spacing: 7px;
+color: #B16CEA;
+}
+
+.cards-landscape img {
+  width: 300px !important;
+  justify-content: space-around ;
+  align-items: center;
+  
+}
+
+.project-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #222;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 160px;
+  height: 50px; 
+}
+
+.dark {
+  background-color: #222;
+  color: #fff;
+  padding: 120px 30px;
+}
+
+.dark a {
+text-decoration: none;
+color: #ccc;
+}
+  
+.blog {
+border-bottom: 1px solid #ccc ;
+}
+
 
 
 
@@ -148,7 +196,7 @@
 
 
 @media(min-width:375px) and (max-width:576px) {
-  .intro-left-side  h1 {
+  .intro-left-side h1 {
     font-size: 46px;
   }
 }
@@ -166,17 +214,23 @@
 
   /* .intro-left-side {
     padding-top: 40px;
-  } */ 
+  } */
 
   .py-3 {
     font-size: 15px;
   }
 }
 
+
+
+
+
+
+
 @media(min-width:992px) {
   .portfolio-creator {
     /* width: 203px; */
-  
+      
 
   }
 
@@ -187,4 +241,9 @@
   .intro-left-side h1 {
     font-size: 68px;
   }
+
+  
+
+
+  
 }
