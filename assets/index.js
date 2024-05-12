@@ -10,8 +10,6 @@ window.addEventListener("DOMContentLoaded", getMelumatlariGetir)
 
 async function getMelumatlariGetir() {
     const unvan = "https://jsonplaceholder.typicode.com/posts"
-}
-    // console.log(typeof unvan) //string
 
 
 const bloqlarinYerlesdiyiDiv = document.querySelector(".blog-right-side")
@@ -29,31 +27,34 @@ const bloqlarinYerlesdiyiDiv = document.querySelector(".blog-right-side")
 
 
         // increment i++
-    //     for(let i=0; i<postlar.length; i++) {
-    //     bloqlarinYerlesdiyiDiv.innerHTML += ` <div class="blog py-3">
-    //     <span id="metadata">May 4 , 2024 , <span id="time">6 mins</span></span>
-    //     <h2>${postlar[i].title}</h2>
-    //     <a href="">Read the article</a>
-    // </div>
-    // `
+        for(let i=0; i<postlar.length; i++) {
+        bloqlarinYerlesdiyiDiv.innerHTML += ` <div class="blog py-3">
+        <span id="metadata">May 4 , 2024 , <span id="time">6 mins</span></span>
+        <h2>${postlar[i].title}</h2>
+        <a href="">Read the article</a>
+    </div>
+    `
             
-    //     }
+        }
 
 
 
-catch (err) {
-        console.log("Serverde xeta yarandi. Bir az sonra cehd edin ." + err.message)
-    }
 
-    //reggardless
-
-    finally {
-
-    }
 
 
 }
 
+catch (err) {
+    console.log("Serverde xeta yarandi. Bir az sonra cehd edin ." + err.message)
+}
+
+//reggardless
+
+finally {
+
+}
+
+}
 
 // const telebe = "Rufet"
 // const telebeObj = [
@@ -72,6 +73,26 @@ catch (err) {
 
 
 //Babel.io 
+
+
+
+let carobj = ["mercedes" , "bmw" , "volvo" , "cadillac"] ;
+
+carobj.forEach(goster);
+
+function goster (Element) {
+    console.log(Element);
+}
+
+
+
+
+const carobjs = ["mercedes" , "bmw" , "volvo" , "cadillac"] ;
+
+for( let carobj in carobjs) {
+    console.log(carobj , carobjs[carobj]);
+}
+
 
 
 
