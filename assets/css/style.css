@@ -110,15 +110,21 @@
   text-align: center;
   align-items: center;
   justify-content: space-around;
+  
 
+  
 
 
 
 }
 
 .sirketler img {
-  width: 141px;
-  /* justify-content: space-around; */
+  width: 100%;
+  margin-left: 40px !important;
+  /* justify-content: center; */
+  /* align-items: center; */
+  justify-content: space-around;
+  
 
 }
 
@@ -139,9 +145,11 @@
 
 /* Section Servisler end */
 
+/* Section Project Start */
 
 
-.projects {
+
+/* .projects {
 justify-content: space-between ;
 }
 
@@ -167,8 +175,11 @@ color: #B16CEA;
   display: inline-flex;
   width: 160px;
   height: 50px; 
-}
+} */
 
+/* Section Project End */
+
+/* Latest Blogs Section Start */
 .dark {
   background-color: #222;
   color: #fff;
@@ -184,6 +195,10 @@ color: #ccc;
 border-bottom: 1px solid #ccc ;
 }
 
+/* Latest Blogs Section End */
+
+
+
 
 
 
@@ -197,7 +212,7 @@ border-bottom: 1px solid #ccc ;
 
 @media(min-width:375px) and (max-width:576px) {
   .intro-left-side h1 {
-    font-size: 46px;
+    font-size: 40px;
   }
 }
 
@@ -209,12 +224,12 @@ border-bottom: 1px solid #ccc ;
   }
 
   .intro-left-side h1 {
-    font-size: 43px;
+    font-size: 44px;
   }
 
-  /* .intro-left-side {
-    padding-top: 40px;
-  } */
+   .intro-left-side {
+    /* padding-top: 0px; */
+  } 
 
   .py-3 {
     font-size: 15px;
