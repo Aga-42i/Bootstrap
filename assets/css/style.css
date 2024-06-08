@@ -6,6 +6,8 @@
   --narinci-reng: #FF8A56;
 }
 
+
+
 /* Google fonts start  */
 
 .roboto-thin {
@@ -62,14 +64,16 @@
 }
 
 /* paragraf  */
-
+/* body {
+  overflow-x: hidden;
+} */
 
 /* Section Left Right Start */
 
 .Book-a-call {
   background-color: #222;
   color: #fff;
-  width: 151px;
+  width: 123px;
   height: 58px;
   display: inline-flex;
   text-decoration: none;
@@ -86,7 +90,7 @@
 }
 
 .intro-left-side h1 {
-  font-size: 38px;
+  font-size: 55px;
 
 }
 
@@ -104,6 +108,9 @@
 
 /* Section Left Right end */
 
+z
+
+
 
 /* Section sirketlerr start */
 .sirketler {
@@ -119,8 +126,8 @@
 }
 
 .sirketler img {
-  width: 100%;
-  margin-left: 40px !important;
+  width: 300px;
+  /* margin-left: -40px !important; */
   /* justify-content: center; */
   /* align-items: center; */
   justify-content: space-around;
@@ -146,35 +153,12 @@
 /* Section Servisler end */
 
 /* Section Project Start */
-
-
-
-/* .projects {
-justify-content: space-between ;
+.project-cards-picture {
+  width: 310px ;
 }
 
-.h6-project {
-letter-spacing: 7px;
-color: #B16CEA;
-}
-
-.cards-landscape img {
-  width: 300px !important;
-  justify-content: space-around ;
-  align-items: center;
-  
-}
-
-.project-button {
-  text-decoration: none;
-  color: #fff;
-  background-color: #222;
-  border-radius: 3px;
-  justify-content: center;
-  align-items: center;
-  display: inline-flex;
-  width: 160px;
-  height: 50px; 
+/* .swiper-wrapper {
+  padding-left: 40px;
 } */
 
 /* Section Project End */
@@ -183,7 +167,9 @@ color: #B16CEA;
 .dark {
   background-color: #222;
   color: #fff;
-  padding: 120px 30px;
+  /* padding: px 30px; */
+  margin-top: -190px;
+  padding-top: 180px;
 }
 
 .dark a {
@@ -191,29 +177,74 @@ text-decoration: none;
 color: #ccc;
 }
   
-.blog {
-border-bottom: 1px solid #ccc ;
+
+
+.project-card {
+  z-index: 99999;
+  background-color: #fff;
+  /* width: 100%;
+  margin-right: 70px !important; */
 }
+
+
+
+
+
+.blog {
+  padding: 130px 20px;
+  border-bottom: 1px solid #ccc !important;
+}
+
+
 
 /* Latest Blogs Section End */
 
 
+/* .navigation-button-man {
+  width: 85px;
+  height: 30px;
+}
+
+
+.test-mans {
+  width: 100%;
+}
+
+
+.info-mans {
+text: 294px ;
+}
 
 
 
-
-
-/* @media(min-width:320px) {
-    .arrow1 {
-        
-    }
+.section-right-side {
+      padding-top: 40px;
 } */
 
 
-@media(min-width:375px) and (max-width:576px) {
+
+
+
+@media(min-width:320px) and (max-width:576px) {
   .intro-left-side h1 {
-    font-size: 40px;
+    font-size: 31px;
   }
+
+  .nav-right-side {
+    padding-left: 70px;
+  }
+
+
+  .project-card {
+    margin-left: 30px;
+  }
+
+  /* .navigation-button {
+    padding-right: 40px !important;
+    padding-bottom: 60px;
+    
+  } */
+
 }
 
 
@@ -227,13 +258,45 @@ border-bottom: 1px solid #ccc ;
     font-size: 44px;
   }
 
-   .intro-left-side {
+  .intro-left-side {
     /* padding-top: 0px; */
   } 
 
-  .py-3 {
+  .paragraf-text {
     font-size: 15px;
   }
+
+  .project-cards-picture {
+    width: 320px ;
+  }
+ 
+
+  .test-mans {
+    width: 300px !important;
+  }
+  
+  
+  .info-mans {
+    width: 340px ;
+  }
+  
+  .testimonials-navigation {
+    padding-top: 13px;
+  }
+  
+  .section-right-side {
+        padding-top: 30px;
+  }
+  
+  .nav-right-side {
+    padding-left: 100px;
+  }
+
+
+
+
+
+
 }
 
 
@@ -254,11 +317,44 @@ border-bottom: 1px solid #ccc ;
   }
 
   .intro-left-side h1 {
-    font-size: 68px;
+    font-size: 65px;
+  
   }
 
   
+  /* .testimonials-navigation {
+    margin-top: 237px !important;
+  } */
 
-
+  .test-mans {
+    width: 450px !important;
+  }
   
+
+  .navigation-button-man {
+    width: 200px;
+    height: 30px;
+  }
+  
+  .info-mans {
+    width: 440px ;
+  }
+  
+  .testimonials-navigation {
+    padding-top: 50px;
+  }
+  
+  .section-right-side {
+        padding-top: 40px;
+  }
+
+
+  .project-cards-picture {
+    width: 600px ;
+  }
+/* .nav-right-side {
+  padding-left: 230px;
+  padding-top: 20px;
+}
+   */
 }

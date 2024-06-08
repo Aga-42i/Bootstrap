@@ -139,6 +139,15 @@ async function getMelumatlariGetir() {
 // const let var statetment
 
 
+
+
+
+
+
+
+
+
+
 // Partnyorlar section
 const partnyor = new Swiper(".partnyorSwiper", {
   breakpoints: {
@@ -165,42 +174,78 @@ const partnyor = new Swiper(".partnyorSwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+
   });
 
 
+
     // Project section
-  const project = new Swiper(".projectSwiper", {
-    slidesPerView: 3,
+    const project = new Swiper(".projectSwiper", {
+      slidesPerView: 3,
+      breakpoints: {
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+        },
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+        },
+    },
+      spaceBetween: 70,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        prevEl: ".prevBtn",
+        nextEl: ".nextBtn",
+      }
+    });
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  const swiper = new Swiper(".testimonialsSwiper", {
+    spaceBetween: 30,
     breakpoints: {
       320: {
           slidesPerView: 1,
           spaceBetween: 20,
       },
       768: {
-          slidesPerView: 3,
+          slidesPerView: 2,
           spaceBetween: 40,
       },
-      992: {
-          slidesPerView: 3,
+      1024: {
+          slidesPerView: 1,
           spaceBetween: 50,
       },
   },
-    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
     navigation: {
-      prevEl: ".prevBtn",
-       nextEl: ".nextBtn",
-    }
+      nextEl: ".nextButton",
+      prevEl: ".prevButton",
+    },
+
+
   });
-
-
 
 
 // let s9 = undefined
