@@ -227,7 +227,7 @@ const partnyor = new Swiper(".partnyorSwiper", {
           spaceBetween: 20,
       },
       768: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 40,
       },
       1024: {
@@ -246,6 +246,38 @@ const partnyor = new Swiper(".partnyorSwiper", {
 
 
   });
+
+
+  const dayrak = new Swiper(".progrestimeSwiper", {
+    spaceBetween: 30,
+    breakpoints: {
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+      },
+      768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+      },
+      1024: {
+          slidesPerView: 1,
+          spaceBetween: 50,
+      },
+  },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    
+
+
+  });
+
+
+
+  // Accordion JS packet 
+  new Accordion('.accordion-container');
+  new Accordion('.accordion-container-2');
 
 
 // let s9 = undefined
